@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	s := "wiCAksono"
+	s := "Hello World!"
 	A := stringutils.Upper(s)
 	fmt.Println(A)
 }
