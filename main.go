@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
-	"hello/stringutils"
+
+	"github.com/ridhwanaw/HelloWorldGo/stringutils"
 )
 
 func main() {
-	s := "wicaksono"
+	s := "wiCAksono"
 	A := stringutils.Upper(s)
 	fmt.Println(A)
 }
